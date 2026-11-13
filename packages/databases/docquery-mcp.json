@@ -11,7 +11,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://docquery.io/mcp",
+      "url": "https://docquery.io/api/v1/mcp",
       "auth": {
         "type": "oauth2"
       }
