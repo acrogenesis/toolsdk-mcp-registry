@@ -1,0 +1,20 @@
+{
+  "type": "mcp-server",
+  "name": "DocQuery",
+  "packageName": "@toolsdk-remote/docquery-mcp",
+  "description": "Hosted MCP server that turns spreadsheets (Excel, CSV, Google Sheets, Airtable) and PDFs into one relational, queryable dataset, so AI clients can query a sheet and its related documents together.",
+  "url": "https://github.com/acrogenesis/docquery-mcp",
+  "readme": "https://github.com/acrogenesis/docquery-mcp#readme",
+  "runtime": "node",
+  "license": "MIT",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://docquery.io/mcp",
+      "auth": {
+        "type": "oauth2"
+      }
+    }
+  ]
+}
